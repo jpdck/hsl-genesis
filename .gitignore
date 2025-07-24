@@ -1,1 +1,32 @@
-/target
+# Rust build artifacts
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# ESP-IDF / ESP artifacts
+.embuild/
+/esp-idf/
+sdkconfig
+sdkconfig.old
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.pdb
+
+# Documentation
+/doc/
+/target/doc/
+
+# Test artifacts
+tarpaulin-report.html
+cobertura.xml
